@@ -20,7 +20,7 @@ public class Main {
             Random random = new Random();
             int randomNumber = random.nextInt((max - min) + 1) + min;
             System.out.println("You have " + maximumAttempt + " attempts to guess a number");
-            System.out.println(randomNumber);
+            
 
             int attempt = 0;
 
